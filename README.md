@@ -10,4 +10,4 @@
 
 [Gallery of 'what is possible'](https://fraasi.github.io/Phyllotaxis-leaf-arrangement/PhylloTaxis_gallery.html)
 
-![phyllotxis1.png](images/phyllotxis1.png)
+![phyllotaxis1.png](images/phyllotaxis1.png)
