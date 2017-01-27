@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PhylloTaxis by fraasi</title>
+
+	<link rel="stylesheet" type="text/css" href="css/PhylloTaxis.css">
+</head>
+<html>
+
+<body>
+<div id="wrapper">
+<h2 id="title">PhylloTaxis Leaf Arrangement by <a href="https://github.com/fraasi" target="_blank">Fraasi</a> </h2>
+
+
+	<canvas id="canvas"></canvas>
+	
+	<div class="sliders">
+	
+		<label>Degree:
+		<input type="range" min="90" max="270" step="0.1" value="137.5" onchange="update()" class="slider degree">
+		</label>
+		<span class="deg">137.5</span><br>
+		
+		<label>Outer Circle Radius:
+		<input type="range" min="2" max="50" step="1" value="20" onchange="update()" class="slider radius">
+		</label>
+		<span class="rad">20</span><br>
+		
+		<label>Outer Line Opacity:
+		<input type="range" min="0" max="1" step="0.1" value="0.5" onchange="update()" class="slider sLineOpa">
+		</label>
+		<span class="pLineOpa">0.5</span><br>
+		
+		<label>Outer Fill Opacity:
+		<input type="range" min="0" max="1" step="0.01" value="0" onchange="update()" class="slider sFillOpa">
+		</label>
+		<span class="pFillOpa">0</span><br>
+		
+		<label>Inner Circle Radius:
+		<input type="range" min="0" max="30" step="1" value="10" onchange="update()" class="slider innerRadius">
+		</label>
+		<span class="innerRad">10</span><br>
+		
+		<label>Inner Line Opacity:
+		<input type="range" min="0" max="1" step="0.1" value="0.5" onchange="update()" class="slider sInnerLineOpa">
+		</label>
+		<span class="pInnerLineOpa">0.5</span><br>
+		
+		<label>Inner Fill Opacity:
+		<input type="range" min="0" max="1" step="0.01" value="0" onchange="update()" class="slider sInnerFillOpa">
+		</label>
+		<span class="pInnerFillOpa">0</span><br><br>
+			
+		<label>
+		<input type="checkbox" class="fiftieth">
+		Draw every 50:th circle * 1.1r <br>
+		</label><br>
+
+		<label>
+		<input type="checkbox" class="tenth">
+		Draw every 10:th circle + 3r
+		</label><br><br>
+
+		<label>
+		<input type="checkbox" checked class="checkbox">Animate
+		</label><br><br>
+
+		<div><a href="PhylloTaxis_gallery.html" target="_blank">Gallery of What is Possible</a></div>
+		<p>Find an angle (degree) you like and play with the sliders and effects. To best understand the effects, put degree to 90 and try them out. <br>
+		Note: Either of the effects makes the circles so big, that even 0.03 fill opacity can easily make the whole screen black.<br>
+		Uncheck Animate if you get bored waiting or hypnotized watching the circles circle.</p>
+		You can save your creation by right clicking on the canvas.<br>
+		Any feedback or bug finds? Send mail to fraasi.gh<span style="display:none">foo</span>@gmail.com
+	</div>
+	
+</div>
+<script src="js/PhylloTaxis.js"></script>
+</body>
+</html>

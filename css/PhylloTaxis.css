@@ -1,0 +1,36 @@
+body {
+	background-color: #ccc;
+	padding: 5px 0px 0px 2%;
+}
+h2 {
+	width: 600px;
+	text-align: center;
+}
+h2 > a {
+	color: black;
+	text-decoration: none;
+	width: 600px;
+	text-align: center;
+}
+#canvas {
+	display: inline-block;
+	background-color: #ddd;
+	border: 1px solid black;
+}
+.sliders {
+	position: relative;
+	left: 30px;
+	bottom: 20px;
+	display: inline-block;
+	width: 340px;
+}
+p{
+	display: inline-block;
+}
+div label, div input, div span {
+    vertical-align: middle;
+}
+#wrapper {
+	width: 1000px;
+	margin: auto;
+}

@@ -1,0 +1,29 @@
+body {
+	background-color: #ccc;
+	width: 99%;
+}
+#header {
+	width: 500px;
+	margin: auto;
+	text-align: center;
+}
+h2 > a {
+	color: black;
+	text-decoration: none;
+}
+p {
+	margin: 8px;
+}
+#gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 1005px;
+
+	background-color: #ddd;
+	margin: auto;
+}
+img {
+	width: 330px;
+	border: 1px solid black;
+}
